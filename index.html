@@ -1,1 +1,526 @@
-"Hello World" 
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <title>Tommy Tran</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta property="og:image" content="">
+
+    <link rel="shortcut icon" href="logo.png">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/plugins.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/skin-1.css">
+</head>
+<body>
+    <!-- Loading -->
+<div id="preloader" class="preloader">
+    <div class="preloader-inner">
+        <div class="preloader-1"></div>
+    </div>
+</div>
+<!-- / -->  
+    <!-- Start Header -->
+    <header class="site-header">
+        <!-- div class="header-logo">
+            <a href="#home" title="Miro - HTML5 Template">Tommy Tran</a>
+        </div-->
+        <div class="header-menu button-open-sidenav">
+            <a href="#">
+                <span></span>
+            </a>
+        </div>
+        <div class="header-follow">
+            <ul>
+                
+                <li>
+                    <a href="https://github.com/TommyTranX" target = "_blank"><i class="ti-github"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=OWCsuzFciMM" target = "_blank"><i class="ti-youtube"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/tommy-tran-4b319b144/" target="_blank"><i class="ti-linkedin"></i></a>
+                </li>
+            </ul>
+            <p>Follow Me</p>
+        </div>
+    </header>
+    <!-- End Header -->    
+    <!-- Start Sidenav -->
+    <div class="site-sidenav">
+        <div class="sidenav-menu">
+            <h2 class="logo">Tommy Tran</h2>
+            <button class="button button-close-sidenav"></button>
+            <ul class="menu">
+                <li>
+                    <a href="#home">Home</a>
+                    <i class="ti-arrow-right"></i>
+                </li>
+                <li>
+                    <a href="#resume">Resume</a>
+                    <i class="ti-arrow-right"></i>
+                </li>
+         
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                    <i class="ti-arrow-right"></i>
+                </li>
+         
+                <li>
+                    <a href="#contact">Contact</a>
+                    <i class="ti-arrow-right"></i>
+                </li>
+            </ul>
+        </div>
+        <span class="sidenav-close"></span>
+    </div>
+    <!-- End Sidenav -->
+    <!-- Start Wrapper -->
+    <div id="site-wrapper">
+        <!-- Start Hero -->
+        <section class="section section-hero section-hero-1 overlay-image" style="background-image: url(assets/images/12.png);">
+            <div class="hero-content">
+                <div id="particles-js-one" class="particles-js"></div>
+                <div class="container">
+                    <div class="row row-0">
+                        <div class="col-lg-8">
+                            <div class="hero-box">
+                                <!--p class="hero-icon"><span>Ayam Inevitable</span></p-->
+                                <h1> <span class="typed" id="type1"></span> <br>Nice to meet you.</h1>
+                                <a href="#resume" class="button button-md">My Resume</a>
+                                <a href="#portfolio" class="button button-md">My Portfolio</a>
+                                <a href="#contact" class="button button-md">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Hero -->
+
+        <!-- Start About -->
+        <!--section id="about" class="section section-about section-about-1 pp-scrollable">
+            <div class="display-screen">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="section-box">
+                                <div class="section-box-image overlay-image" style="background-image: url(assets/images/about.jpg);"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="about-content">
+                                <div class="section-title section-title-3">
+                                    <h2><span>About Me</span></h2>
+                                    <h3><span>Hello, Ayam inevitable</span></h3>
+                                    <div class="divider divider-1"></div>
+                                    <p>My name is Tommy Tran and I am currently studying Data Science at Ecole Polytechnique and HEC Paris.</p>
+                                </div>   
+
+                                <ul class="row">
+
+                                    <li class="col-12 col-sm-12 col-md-6">
+                                        <div class="feature-item">
+                                            <span class="icon ti-signal"></span>
+                                            <div class="feature-item-content">
+                                                <h5>Machine Learning</h5>
+                                                <p>Using Keras & Tensorflow to create models.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="col-12 col-sm-12 col-md-6">
+                                        <div class="feature-item">
+                                            <span class="icon ti-cloud"></span>
+                                            <div class="feature-item-content">
+                                                <h5>Cloud Computing</h5>
+                                                <p>Using AWS and GCP to use cloud resources.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="col-12 col-sm-12 col-md-6">
+                                        <div class="feature-item">
+                                            <span class="icon ti-vector"></span>
+                                            <div class="feature-item-content">
+                                                <h5>Graphic Design</h5>
+                                                <p>Using Photoshop and Illustrator to create designs.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="col-12 col-sm-12 col-md-6">
+                                        <div class="feature-item">
+                                            <span class="icon ti-mobile"></span>
+                                            <div class="feature-item-content">
+                                                <h5>Apps</h5>
+                                                <p>Creating User interfaces using ReactJS</p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="col-12 col-sm-12 col-md-6">
+                                        <div class="feature-item">
+                                            <span class="icon ti-video-camera"></span>
+                                            <div class="feature-item-content">
+                                                <h5>Videos</h5>
+                                                <p>Creating videos using Camtasia and Premiere</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>                                                         
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section -->
+        <!-- End About -->
+        <!-- Start Resume -->
+        <section id="resume" class="section section-resume section-resume-1 pp-scrollable">
+            <div class="display-screen">
+                <div class="section-title-2">
+                    <div class="container">
+                        <div class="inner max-w-576">
+                            <h2><span>Resume</span></h2>
+                            <h3>Education & Experience</h3>
+                            <div class="divider divider-1-reverse divider-1-1"></div>
+                            <div class="divider divider-1-reverse divider-1-2"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container container-resume">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="resume-row">
+                               
+                        <div class="col-md-6">
+                            <div class="resume-row">
+                                <h4 class="resume-title">Experience</h4>
+                                <ul>
+                                    <li>
+                                        <div class="resume-item">
+                                            <div class="resume-head">
+
+                                                <span class="resume-icon ti-pencil-alt"></span>
+                                                <h5>Data Scientist Intern</h5>
+                                                <h6>Facebook | London <small>(Jun 2020- Sep 2020)</small></h6>
+                                            </div>
+                                            <div class="resume-body">
+                                                <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo.</p>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="resume-item">
+                                            <div class="resume-head">
+                                                <span class="resume-icon ti-heart"></span>
+                                                <h5>Machine Learning Engineer</h5>
+                                                <h6>Alpaca technology Inc | New York <small>(Mar 2020 - Jun 2020)</small></h6>
+                                            </div>
+                                            <div class="resume-body">
+                                                <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="resume-item">
+                                            <div class="resume-head">
+                                                <span class="resume-icon ti-paint-bucket"></span>
+                                                <h5>Software Engineer</h5>
+                                                <h6>Credit Agricole CIB | Singapore <small>(Jun 2019- Sep 2019)</small></h6>
+                                            </div>
+                                            <div class="resume-body">
+                                                <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo.</p>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+              
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <!-- End Resume -->
+        <!-- Start Services -->
+        <!-- <section id="blog" class="section section-services section-services-1 pp-scrollable">
+            <div class="display-screen">
+                <div class="section-title-2">
+                    <div class="container">
+                        <div class="inner max-w-576">
+                            <h2><span>Services</span></h2>
+                            <h3>Let's See My Services</h3>
+                            <div class="divider divider-1-reverse divider-1-1"></div>
+                            <div class="divider divider-1-reverse divider-1-2"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="owl-carousel carousel-services-1 carousel-style-1">
+                        <div class="item">
+                            <div class="inner">
+                                <span class="icon ti-cup"></span>
+                                <h3>UI/UX DESIGN</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit incididunt ut labore et dolore</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <span class="icon ti-crown"></span>
+                                <h3>WEB DESIGN</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit incididunt ut labore et dolore</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <span class="icon ti-ruler-pencil"></span>
+                                <h3>MOBILE APPS</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit incididunt ut labore et dolore</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <span class="icon ti-image"></span>
+                                <h3>CREATIVITY</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit incididunt ut labore et dolore</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <span class="icon ti-brush-alt"></span>
+                                <h3>GRAPHIC DESIGN</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit incididunt ut labore et dolore</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span class="section-circle-side left"></span>
+            </div>
+        </section> -->
+        <!-- End Services -->
+        <!-- Start Portfolio -->
+        <section id="portfolio" class="section section-portfolio section-portfolio-1 pp-scrollable portfolio-gallery">
+            <div class="display-screen">
+                <div class="section-title-2">
+                    <div class="container">
+                        <div class="inner max-w-576">
+                            <h2><span>Portfolio</span></h2>
+                            <h3>Things I've Worked On</h3>
+                            <div class="divider divider-1-reverse divider-1-1"></div>
+                            <div class="divider divider-1-reverse divider-1-2"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="data-filters">
+                        <ul class="data-filters-links">
+                            <li class="active" data-filter="all">All Work</li>
+                            
+                            <li data-filter="4">Media & Other</li>
+                            <li data-filter="1">Deep Learning</li>
+                            <li data-filter="2">Machine Learning</li>
+                            <li data-filter="3">Stats / DataViz / R</li>
+                        </ul>
+                        <ul class="row data-filters-items justify-content-md-center">
+
+                            <li class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3" data-filter="4">
+                                <div class="portfolio-item" style="cursor: pointer;"onclick='location.href="https://www.youtube.com/watch?v=OWCsuzFciMM"';>
+                                    <div class="portfolio-image overlay-image" style="background-image: url(assets/images/portfolio/marvel.png)"></div>
+                                    <div class="portfolio-info">
+                                        <div class="portfolio-link portfolio-zoom">
+                                            <a href="assets/images/portfolio/marvel.png" class="button button-circle button-circle-md button-primary" title="Web design">
+                                                <i class="ti-fullscreen"></i>
+                                            </a>
+                                        </div>
+                                        <p>A Subtle Intro</p>
+                                        <h4>Marvel Studios<br>Templates</h4>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3" data-filter="4">
+                                <div class="portfolio-item" style="cursor: pointer;" onclick='location.href="https://github.com/TommyTranX/Snake"';>
+                                    <div class="portfolio-image overlay-image" style="background-image: url(assets/images/portfolio/snake.jpg)"></div>
+                                    <div class="portfolio-info">
+                                        <div class="portfolio-link portfolio-zoom">
+                                            <a href="assets/images/portfolio/snake.jpg" class="button button-circle button-circle-md button-primary" title="Branding">
+                                                <i class="ti-fullscreen"></i>
+                                            </a>
+                                        </div>
+                                        <p>An Intuitive<br>Explaination</p>
+                                        <h4>Snake Game</h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3" data-filter="1">
+                                <div class="portfolio-item" style="cursor: pointer;"onclick='location.href="https://github.com/TommyTranX/Capgemini_NLP_project"';>
+                                    <div class="portfolio-image overlay-image" style="background-image: url(assets/images/portfolio/3.png)"></div>
+                                    <div class="portfolio-info">
+                                        <div class="portfolio-link portfolio-zoom">
+                                            <a href="assets/images/portfolio/3.png" class="button button-circle button-circle-md button-primary" title="Project">
+                                                <i class="ti-fullscreen"></i>
+                                            </a>
+                                        </div>
+                                        <p>Natural Language <br> Processing</p>
+                                        <h4>Consulting <br> w/ Capgemini</h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3" data-filter="2">
+                                <div class="portfolio-item" style="cursor: pointer;" onclick='location.href="https://github.com/TommyTranX/ALS_algorithm_adaptation_Spark"';>
+                                    <div class="portfolio-image overlay-image" style="background-image: url(assets/images/portfolio/4.png)"></div>
+                                    <div class="portfolio-info">
+                                        <div class="portfolio-link portfolio-zoom">
+                                            <a href="assets/images/portfolio/4.png" class="button button-circle button-circle-md button-primary" title="Project">
+                                                <i class="ti-fullscreen"></i>
+                                            </a>
+                                        </div>
+                                        <p>Recommender Systems</p>
+                                        <h4>Matrix Factorization <br> with Spark</h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3" data-filter="2">
+                                <div class="portfolio-item" style="cursor: pointer;" onclick='location.href="https://github.com/TommyTranX/Energy_time_series_ENS"';>
+                                    <div class="portfolio-image overlay-image" style="background-image: url(assets/images/portfolio/5.png)"></div>
+                                    <div class="portfolio-info">
+                                        <div class="portfolio-link portfolio-zoom">
+                                            <a href="assets/images/portfolio/5.png" class="button button-circle button-circle-md button-primary" title="Project">
+                                                <i class="ti-fullscreen"></i>
+                                            </a>
+                                        </div>
+                                        <p>Data & Energy</p>
+                                        <h4>Estimating Appliance Consumption</h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3" data-filter="1">
+                                <div class="portfolio-item" style="cursor: pointer;" onclick='location.href="https://github.com/TommyTranX/Sentiment-Analysis-on-Rotten-Tomatoes"';>
+                                    <div class="portfolio-image overlay-image" style="background-image: url(assets/images/portfolio/7.png)"></div>
+                                    <div class="portfolio-info">
+                                        <div class="portfolio-link portfolio-zoom">
+                                            <a href="assets/images/portfolio/7.png" class="button button-circle button-circle-md button-primary" title="Project">
+                                                <i class="ti-fullscreen"></i>
+                                            </a>
+                                        </div>
+                                        <p>Decrypting <br> Rotten Tomatoes</p>
+                                        <h4>Review Sentiment Analysis</h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3" data-filter="2">
+                                <div class="portfolio-item" style="cursor: pointer;" onclick='location.href="https://github.com/TommyTranX/air_passengers_project"';>
+                                    <div class="portfolio-image overlay-image" style="background-image: url(assets/images/portfolio/8.png)"></div>
+                                    <div class="portfolio-info">
+                                        <div class="portfolio-link portfolio-zoom">
+                                            <a href="assets/images/portfolio/8.png" class="button button-circle button-circle-md button-primary" title="Project">
+                                                <i class="ti-fullscreen"></i>
+                                            </a>
+                                        </div>
+                                        <p>Kaggle-like Competition</p>
+                                        <h4>Predicting Airplane Passenger Load</h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3" data-filter="3">
+                                <div class="portfolio-item" style="cursor: pointer;" onclick='location.href="https://tommytranx.github.io/tfjs.html"' target = "_blank";>
+                                    <div class="portfolio-image overlay-image" style="background-image: url(assets/images/portfolio/digit.png)"></div>
+                                    <div class="portfolio-info">
+                                        <div class="portfolio-link portfolio-zoom">
+                                            <a href="assets/images/portfolio/digit.png" class="button button-circle button-circle-md button-primary" title="Project">
+                                                <i class="ti-fullscreen"></i>
+                                            </a>
+                                        </div>
+                                        <p>Webapp</p>
+                                        <h4>MNIST Drawings Digit Recognition</h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3" data-filter="1">
+                                <div class="portfolio-item" style="cursor: pointer;" onclick='location.href="https://github.com/TommyTranX/CNN-on-Cifar-Dataset"';>
+                                    <div class="portfolio-image overlay-image" style="background-image: url(assets/images/portfolio/10.png)"></div>
+                                    <div class="portfolio-info">
+                                        <div class="portfolio-link portfolio-zoom">
+                                            <a href="assets/images/portfolio/10.png" class="button button-circle button-circle-md button-primary" title="Project">
+                                                <i class="ti-fullscreen"></i>
+                                            </a>
+                                        </div>
+                                        <p>CIFAR-10 dataset</p>
+                                        <h4>Simple Image Classification</h4>
+                                    </div>
+                                </div>
+                            </li> 
+
+                         
+
+
+                            
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+      
+        <section id="contact" class="section section-contact section-contact-1 pp-scrollable">       
+                <div class="display-screen">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="section-box">
+                                    <div class="section-box-image overlay-image" style="background-image: url(assets/images/contact.png);"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="about-content test">
+                                    <div class="section-title section-title-3">
+                                        <h2><span>Contact</span></h2>
+                                        <h3>Get in touch with me today.</h3>
+                                        <div class="divider divider-1"></div>
+                                        <p>Get in contact with me today for a variety of reasons. Speaking engagements, meetings or even just a casual converstaion, email me to get in touch! .</p>
+                                        <a href="https://www.linkedin.com/in/tommy-tran-4b319b144/" target = "_blank" class="button button-md">Linkedin</a>
+                                    </div>                                                               
+                                </div>
+                                <div class="about-content test">
+                                    <br><br>
+                                    <div class="section-title section-title-3">
+                                        <h4>Email</h4>
+                                        <p>tran.tommy@hotmail.com</p>
+                                        <div class="divider divider-1"></div>
+                                    </div>                                                               
+                                </div>
+                                <div class="about-content test">
+                                    <br><br>
+                                    <div class="section-title section-title-3">
+                                        <h4>Phone Number</h4>
+                                        <p>Available upon Request</p>
+                                        <div class="divider divider-1"></div>
+                                    </div>                                                               
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section> 
+        <!-- End Contact Me -->
+    </div>
+    <!-- End Wrapper -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/plugins.min.js"></script>
+    <script src="assets/js/main-scripts.js"></script>
+</body>
+</html>
